@@ -1,3 +1,10 @@
+/* base styles */
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 body {
     font-family:"Roboto",sans-serif;
     font-weight: medium;
@@ -5,11 +12,35 @@ body {
     line-height: 1.2;
     background-color: #ffffff;
     color: #434455;
-}
-ul {
-    list-style-type: none;
+    
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+    margin: 0;
+}
+
+button {
+    font-style: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
 /* header */
 
@@ -25,7 +56,12 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
 }
 
 .logo-head {
@@ -34,7 +70,26 @@ ul {
 }
 
 /* navigation */
-
+.header {
+    background-color:#fff;
+    border-bottom: 1px solid #e7e9fc;
+}
+.header .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    
+}
 .nav {
     font-weight: 500;
     font-size: 16px;
@@ -52,7 +107,17 @@ ul {
     color: #404BBF;
 }
 
-
+.nav-studio {
+    display: block;
+    padding-top: 24px;
+    padding-right: 0;
+    padding-bottom: 24px;
+    padding-left: 76px;
+}
+.cont-list {
+    display: flex;
+    gap: 40px;
+}
 .cont {
     font-style: normal;
 }
@@ -75,18 +140,32 @@ ul {
 
 /* maine banner */
 .banner {
-    background-color: #2E2F42
+    background-color: #2E2F42;
 }
+.maine-banner-container {
+    padding-top: 191px;
+    padding-bottom: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    align-content: center;
+
+}
+
+
 .banner .maine-title {
-    
+    width:496px;
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
     text-align: center;
 }
+
 .banner .buttom {
     background-color: #4D5AE5;
     font-weight: 500;
@@ -95,13 +174,30 @@ ul {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
 }
+
 
 .buttom:hover, .buttom:focus {
     background-color: #404BBF;
 
 }
 /* solutions */
+
+.solutions-link {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.solutions-link-item {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 264px;
+}
 .titl {
 
     font-weight: 500;
@@ -109,6 +205,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
     
 }
 .text-sol {
@@ -130,10 +227,32 @@ ul {
     color: #2E2F42;
     text-transform: capitalize;
     text-align: center;
+    padding-top: 120px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 72px;
+}
+
+.section-team-item {
+    display: flex;
+    flex-basis: calc(( 100% - 24px * 3 ) / 4);
+    flex-direction: row;
+    padding-bottom: 120px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
 }
 .sect-team-card {
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px rgba( 46, 47, 66, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
 }
+
 .name {
     font-weight: 500;
     font-size: 20px;
