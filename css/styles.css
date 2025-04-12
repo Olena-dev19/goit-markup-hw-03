@@ -1,0 +1,193 @@
+body {
+    font-family:"Roboto",sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 1.2;
+    background-color: #ffffff;
+    color: #434455;
+}
+ul {
+    list-style-type: none;
+}
+
+
+/* header */
+
+
+/* logo */
+
+.link-logo{
+    font-family:"Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif
+}
+
+.logo-head {
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+/* navigation */
+
+.nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+    text-decoration: none;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.02em;
+}
+.nav:hover {
+    color: #404BBF;
+}
+
+.nav:focus {
+    color: #404BBF;
+}
+
+
+.cont {
+    font-style: normal;
+}
+
+.cont li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.adr:hover, .adr:focus {
+    color: #404BBF;
+}
+
+
+/* maine banner */
+.banner {
+    background-color: #2E2F42
+}
+.banner .maine-title {
+    
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.banner .buttom {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.buttom:hover, .buttom:focus {
+    background-color: #404BBF;
+
+}
+/* solutions */
+.titl {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    
+}
+.text-sol {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* team */
+.section-team {
+    background-color: #F4F4FD;
+}
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-transform: capitalize;
+    text-align: center;
+}
+.sect-team-card {
+    background-color: #ffffff;
+}
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;  
+    color: #2E2F42;
+}
+.trade {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* portfolio */
+.section-portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-transform: capitalize;
+    text-align: center;
+}
+.prt-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.prt-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* footer */
+.footer-sect{
+    background-color:#2e2f42;
+}
+.logo-foot {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd
+}
+.footer-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+
