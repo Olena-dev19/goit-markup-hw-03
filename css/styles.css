@@ -62,6 +62,7 @@ img {
     justify-content: flex-start;
     flex-direction: row;
     gap: 0px;
+    margin-right: 76px;
 }
 
 .logo-head {
@@ -98,6 +99,8 @@ img {
     text-decoration: none;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
 }
 .nav:hover {
     color: #404BBF;
@@ -107,13 +110,8 @@ img {
     color: #404BBF;
 }
 
-.nav-studio {
-    display: block;
-    padding-top: 24px;
-    padding-right: 0;
-    padding-bottom: 24px;
-    padding-left: 76px;
-}
+
+
 .cont-list {
     display: flex;
     gap: 40px;
@@ -141,15 +139,14 @@ img {
 /* maine banner */
 .banner {
     background-color: #2E2F42;
+    padding: 188px 0
 }
 .maine-banner-container {
-    padding-top: 191px;
-    padding-bottom: 188px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 45px;
     align-content: center;
 
 }
@@ -164,6 +161,7 @@ img {
     letter-spacing: 0.02em;
     text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .banner .buttom {
@@ -186,6 +184,10 @@ img {
 }
 /* solutions */
 
+.section-solutions {
+    padding: 120px 0;
+}
+
 .solutions-link {
     display: flex;
     flex-direction: row;
@@ -194,9 +196,7 @@ img {
 }
 
 .solutions-link-item {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    width: 264px;
+    width: calc((100% - 72px) / 4)
 }
 .titl {
 
@@ -218,6 +218,7 @@ img {
 /* team */
 .section-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .title-team {
     font-weight: 700;
@@ -227,9 +228,6 @@ img {
     color: #2E2F42;
     text-transform: capitalize;
     text-align: center;
-    padding-top: 120px;
-    padding-left: auto;
-    padding-right: auto;
     margin-bottom: 72px;
 }
 
@@ -237,7 +235,6 @@ img {
     display: flex;
     flex-basis: calc(( 100% - 24px * 3 ) / 4);
     flex-direction: row;
-    padding-bottom: 120px;
     align-items: center;
     align-content: center;
     justify-content: space-between;
@@ -247,14 +244,16 @@ img {
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px rgba( 46, 47, 66, 0.08);
-    display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    width: calc(( 100% - 72px) / 4 );
     
 }
-.team-img{
-   margin-bottom: 32px; 
+
+.card-item {
+    padding: 32px 0;
+    text-align: center;
 }
 
 .name {
@@ -270,12 +269,13 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
 }
 /* portfolio */
-
-
 .section-portfolio {
+    padding: 120px 0;
+}
+
+.section-portf-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -283,7 +283,6 @@ img {
     color: #2E2F42;
     text-transform: capitalize;
     text-align: center;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 .sect-portf-link {
@@ -293,17 +292,16 @@ img {
     justify-content: space-between;
     row-gap: 48px;
     align-items: center;
-    padding-bottom: 120px;
 }
 
-.sect-port-item {
-    border: 1px  solid #e7e9fc;
-}
 
-.sect-port-img {
-margin-bottom: 32px;
-}
 
+.port-text {
+    padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+}
 .prt-name {
     font-weight: 500;
     font-size: 20px;
@@ -311,15 +309,15 @@ margin-bottom: 32px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    padding-left: 16px;
+    
 }
 .prt-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
-    padding-left: 16px;
+   
+    
 }
 /* footer */
 .footer-sect{
@@ -329,13 +327,14 @@ margin-bottom: 32px;
 }
 
 .footer-sect-cont {
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 16px;
-    
 }
 
+.logo-ft {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .logo-foot {
     font-weight: 700;
     font-size: 18px;
