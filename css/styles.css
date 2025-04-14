@@ -105,6 +105,11 @@ img {
     
 }
 .nav {
+    padding: 24px 0;
+    display: block;
+}
+
+.nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -112,14 +117,12 @@ img {
     text-decoration: none;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     letter-spacing: 0.02em;
-    padding: 24px 0;
-    display: block;
 }
-.nav:hover {
+.nav-link:hover {
     color: #404BBF;
 }
 
-.nav:focus {
+.nav-link:focus {
     color: #404BBF;
 }
 
