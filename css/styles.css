@@ -101,7 +101,6 @@ img {
 }
 .nav {
     padding: 24px 0;
-    display: block;
 }
 
 .nav-link {
@@ -200,6 +199,7 @@ img {
     padding: 120px 0;
 }
 .visually-hidden {
+    color: rgba(0, 0, 0, 0);
     position: absolute;
     white-space: nowrap;
     width: 1px;
