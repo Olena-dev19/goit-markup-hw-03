@@ -88,11 +88,7 @@ img {
     display: flex;
     align-items: center;
 }
-.header-nav-list {
-    display: flex;
-    align-items: center;
-    
-}
+
 
 .logo-header {
     margin-right: 76px;
