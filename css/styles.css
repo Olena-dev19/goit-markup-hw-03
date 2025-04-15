@@ -99,9 +99,7 @@ img {
     gap: 40px;
    
 }
-.nav {
-    padding: 24px 0;
-}
+
 
 .nav-link {
     font-weight: 500;
@@ -111,6 +109,9 @@ img {
     text-decoration: none;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;
+
 }
 .nav-link:hover {
     color: #404BBF;
@@ -199,18 +200,18 @@ img {
     padding: 120px 0;
 }
 .visually-hidden {
-    color: rgba(0, 0, 0, 0);
     position: absolute;
-    white-space: nowrap;
     width: 1px;
     height: 1px;
-    overflow: hidden;
+    margin: -1px;
     border: 0;
     padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+    overflow: hidden;
 }
+
 
 .solutions-link {
     display: flex;
